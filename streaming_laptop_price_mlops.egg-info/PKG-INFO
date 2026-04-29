@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: streaming-laptop-price-mlops
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=2.4.4
+Requires-Dist: pandas>=3.0.2
+Provides-Extra: dev
+Requires-Dist: databricks-connect<17,>=16.0; extra == "dev"
+Requires-Dist: ipykernel<7,>=6.29.5; extra == "dev"
+Requires-Dist: pip<26,>=25.0.1; extra == "dev"
+Requires-Dist: pre-commit<5,>=4.1.0; extra == "dev"
+Provides-Extra: test
+Requires-Dist: pre-commit<5,>=4.1.0; extra == "test"
+Requires-Dist: pytest<9,>=8.0.0; extra == "test"
+Requires-Dist: pytest-cov<6,>=5.0.0; extra == "test"
+Requires-Dist: pyspark<4,>=3.4.0; extra == "test"
+
+# streaming-laptop-price-mlops
+Real-Time Laptop Price Prediction MLOps Pipeline on Databricks

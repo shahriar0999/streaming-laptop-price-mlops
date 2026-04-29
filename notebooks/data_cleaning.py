@@ -1,5 +1,8 @@
 # %% Databricks notebook source
-!pip install -e ..
+%pip install -e ..
+%restart_python
+
+
 # COMMAND ----------
 
 
